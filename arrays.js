@@ -1,7 +1,7 @@
 //////////////////PROBLEM 1////////////////////
 /* Create a copy of the faveColors array called 'colorCopy' using the slice method. */
 
-const faveColors = ['red', 'green', 'black']
+const faveColors = ['red', 'green', 'blue']
 
 //CODE HERE
 Favecolors = favecolors.slice(0,2)

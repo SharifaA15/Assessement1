@@ -34,7 +34,11 @@ let gitDefinition = "versioncontrolsystem";
 */
 
 //CODE HERE
-    let 
+let
+var init = {
+    description: 'New Git repository',
+    code: 'git init'
+}
 //////////////////PROBLEM 4////////////////////
 /*
     Create an object called 'clone' with 'description' and 'code' properties 
@@ -42,6 +46,10 @@ let gitDefinition = "versioncontrolsystem";
 */
 
 //CODE HERE
+var clone = {
+    description: 'Copy existing Git repository',
+    code: 'git clone'
+}
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -50,6 +58,10 @@ let gitDefinition = "versioncontrolsystem";
 */
 
 //CODE HERE
+var status = {
+    description: 'display the git status',
+    code: 'git status'
+}
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -59,6 +71,10 @@ let gitDefinition = "versioncontrolsystem";
 
 //CODE HERE
 
+var add = {
+    description: 'add file to the index',
+    code: 'git add'
+}
 //////////////////PROBLEM 7////////////////////
 /*
     Create an object called 'commit' with 'description' and 'code' properties
@@ -66,7 +82,10 @@ let gitDefinition = "versioncontrolsystem";
 */
 
 //CODE HERE
-
+var commit = {
+    description: 'Changes to the repository',
+    code: 'git commit'
+}
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -75,3 +94,7 @@ let gitDefinition = "versioncontrolsystem";
 */
 
 //CODE HERE
+var push = {
+    description: 'Changes to the repository',
+    code: 'git push'
+}
